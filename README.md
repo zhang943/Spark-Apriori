@@ -1,12 +1,12 @@
-#Spark-Apriori
+# Spark-Apriori
 An implementation of apriori algorithm under spark platform.
 
-##Usage
+## Usage
 spark-submit -master spark://Ubuntu:7077 apriori.py input output min_sup
 
 Note: input format should be the same as the test data.
 
-##Configuration: Anaconda3 + Spark-2.4.0 + Pycharm
+## Configuration: Anaconda3 + Spark-2.4.0 + Pycharm
 File-->Settings-->Project-->Project Structure: 
 
 Add the .zip file in $SPARK_HOME/python/lib/ to Content Root
